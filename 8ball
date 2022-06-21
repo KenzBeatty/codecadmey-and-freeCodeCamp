@@ -1,0 +1,36 @@
+let userName="";
+//greeting-username specific
+userName ? console.log(`Hello, ${userName}!`) : console.log('Hello!');
+
+let userQuestion='will starship launch';
+
+console.log(` ${userName} Asked if Starship will launch`);
+let randomNumber = Math.floor(Math.random() * 8);
+  console.log(randomNumber)
+
+let eightBall="";
+if (randomNumber === 0) { ;
+  eightBall = 'It is certain' ;
+}
+else if (randomNumber === 1) { ;
+  eightBall = 'It is decidely so' ;
+}
+else if(randomNumber === 2) { ;
+  'Reply hazy try again' ;
+}
+else if (randomNumber === 3) { ;
+  'Cannot predict now';
+}
+else if (randomNumber === 4){ ;
+  'Do not count on it' ;
+}
+else if (randomNumber === 5){ ;
+  'My sources say no' ;
+}
+else if (randomNumber === 6){ ;
+  'Outlook not so good'  ;
+}
+else if (randomNumber === 7){ ;
+  'Signs point to yes' ;
+}
+console.log(eightBall) ;
